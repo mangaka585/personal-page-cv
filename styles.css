@@ -156,8 +156,7 @@ main,
   overflow: hidden;
 }
 
-.lang-btn,
-.print-btn {
+.lang-btn {
   font: inherit;
   background: transparent;
   color: var(--muted);
@@ -169,14 +168,6 @@ main,
 .lang-btn.is-active {
   background: var(--accent-soft);
   color: var(--ink);
-}
-
-.print-btn {
-  color: var(--ink);
-  text-decoration: none;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  font-size: 0.85rem;
 }
 
 main {
@@ -611,8 +602,7 @@ h3 {
     display: none;
   }
 
-  .lang-btn,
-  .print-btn {
+  .lang-btn {
     padding: 0.3rem 0.45rem;
     font-size: 0.8rem;
   }
@@ -635,11 +625,12 @@ h3 {
   }
 
   .portrait {
-    justify-self: start;
+    justify-self: center;
     order: -1;
     height: auto;
     min-height: 0;
     width: min(220px, 70vw);
+    margin-inline: auto;
   }
 
   .portrait img {
