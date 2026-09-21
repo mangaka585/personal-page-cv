@@ -4,12 +4,12 @@
 
 ## Как опубликовать
 
-Репозиторий сейчас приватный. Для бесплатного GitHub Pages его нужно сделать публичным (или нужен GitHub Pro).
+Репозиторий сейчас приватный. Бесплатный GitHub Pages работает только с **публичным** репозиторием.
 
-1. GitHub → **Settings → Pages**
-2. Source: **GitHub Actions**
-3. После мержа в `main` workflow `Deploy GitHub Pages` выложит сайт
-4. Адрес будет вида `https://mangaka585.github.io/personal-page-cv/`
+1. GitHub → **Settings → General → Danger zone → Change visibility → Public**
+2. GitHub → **Settings → Pages** → Source: **GitHub Actions**
+3. После пуша или повторного запуска workflow `Deploy GitHub Pages` сайт будет на
+   `https://mangaka585.github.io/personal-page-cv/`
 
 Локально:
 
