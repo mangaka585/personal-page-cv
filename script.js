@@ -17,7 +17,7 @@ const COPY = {
     statTrackValue: "IC → EM",
     statTrack: "инженер, лид, руководитель",
     statDomainValue: "Fintech / Retail",
-    statDomain: "Тинькофф · Лемана ПРО · МГУ",
+    statDomain: "Т-Банк · Лемана ПРО · МГУ",
     statFounded: "свой продукт в проде",
     expKicker: "01 — Специализация",
     expTitle: "Где я сильный специалист",
@@ -40,6 +40,7 @@ const COPY = {
     now: "сейчас",
     job1Dates: "ноя 2025 — н.в.",
     job1Place: "Москва",
+    job1Company: "Т-Банк",
     job1Title: "Engineering Manager",
     job1Text:
       "Руковожу разработкой в финтехе. Зона — команда, архитектура сервисов и то, чтобы банковские процессы оставались понятными, устойчивыми и поставляемыми.",
@@ -107,7 +108,7 @@ const COPY = {
     statTrackValue: "IC → EM",
     statTrack: "engineer, lead, manager",
     statDomainValue: "Fintech / Retail",
-    statDomain: "Tinkoff · LemanaPRO · MSU",
+    statDomain: "T-Bank · LemanaPRO · MSU",
     statFounded: "own product in production",
     expKicker: "01 — Focus",
     expTitle: "Where I am a specialist",
@@ -130,6 +131,7 @@ const COPY = {
     now: "now",
     job1Dates: "Nov 2025 — present",
     job1Place: "Moscow",
+    job1Company: "T-Bank",
     job1Title: "Engineering Manager",
     job1Text:
       "I lead engineering in fintech. The job is the team, service architecture, and keeping banking processes understandable, reliable, and shippable.",
