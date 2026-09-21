@@ -12,6 +12,7 @@ const COPY = {
     location: "Москва",
     open: "Открыт к предложениям",
     portraitCaption: "mangaka585 · основатель AnimeSaver",
+    portraitAlt: "Александр Татевосян",
     statYearsValue: "10+",
     statYears: "лет в разработке",
     statTrackValue: "IC → EM",
@@ -28,10 +29,10 @@ const COPY = {
       "Веду разработку: приоритеты, технические развилки, как едем в прод и как растут люди рядом. Руководитель для меня не табличка на двери, а человек, который отвечает за результат команды.",
     ex2Title: "Backend",
     ex2Text:
-      "Пишу и проектирую сервисы на Kotlin, Java и TypeScript. Стараюсь, чтобы были понятные границы, честные контракты и данные, которым можно доверять.",
+      "Проектирую сервисы с понятными границами, честными контрактами и данными, которым можно доверять. Синтаксис любого языка осваиваю быстро — для меня это инструмент, а не специализация.",
     ex3Title: "Бизнес-процессы",
     ex3Text:
-      "Часто работаю там, где много статусов, заявок и интеграций. Camunda помогает не держать весь этот зоопарк в голове и в бесконечных if.",
+      "Часто работаю там, где много статусов, заявок и интеграций. Важно, чтобы процесс был виден команде, а не жил в голове одного человека и в бесконечных if.",
     ex4Title: "Как это едет в прод",
     ex4Text:
       "Kubernetes, Docker, werf, Jenkins, Grafana, Prometheus. Если нельзя спокойно выкатить и понять, что происходит — для меня это ещё не готово.",
@@ -43,7 +44,7 @@ const COPY = {
     job1Company: "Т-Банк",
     job1EmTitle: "Engineering Manager · сен 2025 — н.в.",
     job1EmText:
-      "Веду сегмент Collections: 7 продуктовых команд опираются на 2 инженерные. Руковожу тимлидами, отвечаю за роадмап, поставку, людей и техническое направление. В департаменте подчиняюсь Technical Director — вместе с двумя другими стрим-лидами.",
+      "Веду сегмент Collections: 7 продуктовых команд опираются на 2 инженерные. Руковожу тимлидами, отвечаю за роадмап, поставку, людей и техническое направление. В департаменте подчиняюсь CTO — вместе с двумя другими стрим-лидами.",
     job1EmP1:
       "Вырастил инженерию с 4 до 16 человек: внешний найм, внутренняя ротация и стажёрский пайплайн, который сам собрал",
     job1EmP2: "Lead time стрима на p85 — 5 дней",
@@ -158,6 +159,7 @@ const COPY = {
     location: "Moscow",
     open: "Open to opportunities",
     portraitCaption: "mangaka585 · founder of AnimeSaver",
+    portraitAlt: "Alexander Tatevosyan",
     statYearsValue: "10+",
     statYears: "years in software",
     statTrackValue: "IC → EM",
@@ -174,10 +176,10 @@ const COPY = {
       "I lead engineering: priorities, technical forks, how we ship, and how people grow. A title on the door means little. Being accountable for the team's result means a lot.",
     ex2Title: "Backend",
     ex2Text:
-      "I write and design services in Kotlin, Java, and TypeScript. I care about clear boundaries, honest contracts, and data you can trust.",
+      "I design services with clear boundaries, honest contracts, and data you can trust. I pick up any syntax quickly — a language is a tool for me, not a specialization.",
     ex3Title: "Business processes",
     ex3Text:
-      "I often work where there are statuses, cases, and integrations everywhere. Camunda helps keep that zoo out of anyone's head and out of endless ifs.",
+      "I often work where there are statuses, cases, and integrations everywhere. The process should be visible to the team — not stuck in one person's head or in endless ifs.",
     ex4Title: "How it ships",
     ex4Text:
       "Kubernetes, Docker, werf, Jenkins, Grafana, Prometheus. If we cannot ship calmly and see what is happening, it is not done yet.",
@@ -189,7 +191,7 @@ const COPY = {
     job1Company: "T-Bank",
     job1EmTitle: "Engineering Manager · Sep 2025 — present",
     job1EmText:
-      "I lead the Collections segment: 7 product teams supported by 2 engineering teams. I manage the team leads and own roadmap, delivery, people, and technical direction. I report to the Technical Director of the department, alongside two other stream leads.",
+      "I lead the Collections segment: 7 product teams supported by 2 engineering teams. I manage the team leads and own roadmap, delivery, people, and technical direction. I report to the CTO of the department, alongside two other stream leads.",
     job1EmP1:
       "Grew engineering from 4 to 16 people through external hiring, internal rotation, and an intern pipeline I sourced and developed",
     job1EmP2: "Stream lead time at p85 = 5 days",
@@ -291,9 +293,309 @@ const COPY = {
       "If you need an Engineering Manager or Team Lead, backend or platform work — or you just have something concrete to talk about.",
     footer: "Alexander Tatevosyan · Engineering Manager",
   },
+  ja: {
+    skip: "本文へ",
+    navExpertise: "仕事の進め方",
+    navExperience: "経歴",
+    navSkills: "スタック",
+    navContact: "連絡先",
+    print: "PDF",
+    kicker: "Engineering Manager · 開発歴 10年以上",
+    role: "チームを率い、システムが本番に乗る形まで自分で設計します。",
+    lede: "10年以上コードを書き、ここ数年は人も率いています。小売、フィンテック、そして自作プロダクト AnimeSaver。考える、組み立てる、チームが安心して引き継げる形まで持っていく。それが大事です。",
+    location: "モスクワ",
+    open: "転職・相談を受けています",
+    portraitCaption: "mangaka585 · AnimeSaver 創業者",
+    portraitAlt: "アレクサンドル・タテヴォシャン",
+    statYearsValue: "10+",
+    statYears: "年の開発経験",
+    statTrackValue: "IC → EM",
+    statTrack: "エンジニア、リード、マネジャー",
+    statDomainValue: "Fintech / Retail",
+    statDomain: "Tバンク · LemanaPRO · モスクワ大学",
+    statFounded: "自作プロダクトを本番運用",
+    expKicker: "01 — 仕事の進め方",
+    expTitle: "普段どう働くか",
+    expLede:
+      "課題は端から端まで引き受けます。ドメインを理解し、サービスを設計し、本番まで届け、人が普通に運用できるシステムを残す。",
+    ex1Title: "チーム",
+    ex1Text:
+      "優先順位、技術の分岐、リリースの仕方、人の成長まで含めて開発を率います。肩書きより、チームの結果に責任を持つことの方が大事です。",
+    ex2Title: "Backend",
+    ex2Text:
+      "境界がはっきりしたサービス、誠実な契約、信頼できるデータを設計します。構文はすぐに覚えます。言語は専門ではなく、道具です。",
+    ex3Title: "業務プロセス",
+    ex3Text:
+      "ステータス、申請、連携が多い領域でよく働きます。プロセスはチームから見えるべきで、一人の頭の中や無限の if に閉じ込めてはいけません。",
+    ex4Title: "本番への乗せ方",
+    ex4Text:
+      "Kubernetes、Docker、werf、Jenkins、Grafana、Prometheus。落ち着いて出せて、何が起きているか見える状態でなければ、まだ完成ではありません。",
+    workKicker: "02 — 経歴",
+    workTitle: "それが実際にあった場所",
+    now: "現在",
+    job1Dates: "2025年2月 — 現在",
+    job1Place: "モスクワ · ハイブリッド",
+    job1Company: "Tバンク",
+    job1EmTitle: "Engineering Manager · 2025年9月 — 現在",
+    job1EmText:
+      "Collectionsセグメントを率いています。7つのプロダクトチームを2つのエンジニアリングチームが支えています。チームリードをマネジメントし、ロードマップ、デリバリー、人と技術の方向性を担っています。部門ではCTOにレポートし、ほか2名のストリームリードと並んでいます。",
+    job1EmP1:
+      "エンジニアリングを4人から16人へ。外部採用、社内ローテーション、自分で組み立てたインターンパイプライン",
+    job1EmP2: "ストリームのリードタイム p85 = 5日",
+    job1EmP3:
+      "銀行の各商品にわたる回収プロセスを育て、ストリームが回収戦略、さらに recovery と LTV につながる",
+    job1EmP4: "スタック: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC",
+    job1TlTitle: "Team Lead · 2025年2月 — 2025年9月",
+    job1TlText:
+      "Collectionsのチームリード。4人のチームを率い、部門の新アーキテクチャ向けに decisioning サービスを作りました。",
+    job1TlP1: "新アーキテクチャの一部として collections decisioning service を設計し、立ち上げた",
+    job1TlP2: "ハンズオンリード: デリバリー、採用、育成、チームの技術方針",
+    job1TlP3: "スタック: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC",
+    job1TlP4: "2025年9月にストリームの Engineering Manager へ昇進",
+    job2Dates: "2022年1月 — 2026年9月",
+    job2Place: "契約 · リモート",
+    job2Company: "モスクワ大学（ロモノソフ記念）",
+    job2TlTitle: "Team Lead · 2025年3月 — 2026年9月",
+    job2TlText: "兼業でエンジニア3人を率い、大学の医療情報システムを開発・運用していました。",
+    job2TlP1: "大学の医療情報システムのデリバリーと保守を担当",
+    job2TlP2: "3人チームのハンズオンリード: デリバリー、運用、技術方針",
+    job2TlP3: "スタック: Scala, JavaScript, Firebird, Linux",
+    job2SeTitle: "Software Engineer · 2022年1月 — 2025年3月",
+    job2SeText: "兼業で大学の医療情報システムを作り、運用していました。",
+    job2SeP1: "MISの機能開発、保守、本番サポート",
+    job2SeP2: "検査・放射線システムとのレポートと連携",
+    job2SeP3: "Firebirdを最適化し、可観測性を整えた",
+    job2SeP4: "スタック: Scala, JavaScript, Firebird, Linux",
+    job2SeP5: "2025年3月に Team Lead へ昇進",
+    job3Dates: "2019年9月 — 2026年3月",
+    job3Place: "自作プロダクト · リモート",
+    job3Title: "創業者",
+    job3Text: "AnimeSaverを作りました。アニメを見て日本語を学ぶストリーミング基盤です。",
+    job3P1: "アイデア、アーキテクチャ、開発、運用まで一人で持った",
+    job3P2: "ピーク時は月間ユニークユーザー2.5万人。デスクトップとモバイルウェブ",
+    job3P3:
+      "スタック: JavaScript, TypeScript, NestJS, Next.js, React, PostgreSQL, Grafana, Prometheus, Linux, Kubernetes, Docker Swarm, Docker Compose",
+    job4Dates: "2021年12月 — 2025年1月",
+    job4Place: "モスクワ · ハイブリッド",
+    job4TlTitle: "Team Lead · 2024年9月 — 2025年1月",
+    job4TlText:
+      "マーチャントアカウントと、注文の組み立てから顧客への配送までの流れで11人を率いました。",
+    job4TlP1:
+      "Software Engineerからの昇進。マーチャントキャビネットとラストマイル配送で11人を率いた",
+    job4TlP2: "その領域のデリバリーと技術方針を担当",
+    job4SeTitle: "Software Engineer · 2021年12月 — 2024年9月",
+    job4SeText: "マーチャントアカウントと、注文の組み立てから配送までの流れを作りました。",
+    job4SeP1: "マーチャントキャビネットの機能、連携、本番サポート",
+    job4SeP2: "チェストヌイ ZNAK（国家製品マーキング）、マーチャントCRM、配送サービスを連携",
+    job4SeP3: "スタック: JavaScript, gRPC",
+    job4SeP4: "2024年9月に Team Lead へ昇進",
+    job5Dates: "2021年2月 — 2023年4月",
+    job5Place: "ジョージア · リモート",
+    job5Company: "TransIntel Technology",
+    job5Title: "Full Stack Engineer · 兼業",
+    job5Text:
+      "OGGOに関わりました。ガソリンスタンド、洗車、顧客、タクシー、車両向けのモジュール型運用基盤です。",
+    job5P1: "OGGO各モジュールの機能開発",
+    job5P2: "モバイルとウェブクライアント",
+    job5P3: "スタック: React Native, JavaScript",
+    skillsKicker: "03 — スタック",
+    skillsTitle: "使ってきたもの",
+    skillsNote:
+      "実際のプロジェクトで使い、履歴書にも書いてきたものです。日常の道具もあれば、その場の課題のために覚えたものもあります。",
+    skillLead: "マネジメント",
+    skillTeam: "チームリード",
+    skillDelivery: "デリバリーと品質",
+    skillLangs: "言語",
+    skillBack: "Backend",
+    skillFront: "Frontend / モバイル",
+    skillData: "データ",
+    skillInfra: "インフラ",
+    skillTest: "テストと品質",
+    skillTools: "ツール",
+    skillSec: "ネットワークセキュリティ",
+    eduKicker: "04 — 学歴",
+    eduTitle: "学歴",
+    eduSchool: "ロシア国立社会大学",
+    eduDegree: "学士（法学）",
+    eduNote:
+      "開発は独学です。法学は残っています。要件、リスク、合意はコードと同じくらい丁寧に読みます。",
+    certTitle: "専門分野の追加学習",
+    cert1: "Programming Fundamentals in Kotlin",
+    cert1Meta: "Meta · 2025年11月",
+    cert2: "T-Camp. Управляй командой",
+    cert2Meta: "Tバンク · 2025年10月",
+    cert3: "Application Security and Secure Coding Training",
+    cert3Meta: "Codebashing · 2024年2月",
+    cert4: "Camunda for microservice orchestration",
+    cert4Meta: "IE Kotov D.G. · 2022年11月",
+    cert5: "Full-Stack Web Development with React",
+    cert5Meta: "Coursera · 2021年1月",
+    cert6: "Programming for Everybody (Getting Started with Python)",
+    cert6Meta: "Coursera · 2018年6月",
+    contactKicker: "05 — 連絡",
+    contactTitle: "ご連絡ください",
+    contactLede:
+      "Engineering Manager や Team Lead、バックエンドやプラットフォームの話、あるいは具体的な相談があれば。",
+    footer: "アレクサンドル・タテヴォシャン · Engineering Manager",
+  },
+  ko: {
+    skip: "본문으로",
+    navExpertise: "일하는 방식",
+    navExperience: "경력",
+    navSkills: "스택",
+    navContact: "연락처",
+    print: "PDF",
+    kicker: "Engineering Manager · 개발 경력 10년 이상",
+    role: "팀을 이끌고, 시스템이 프로덕션에 올라가는 모양까지 직접 설계합니다.",
+    lede: "십 년 넘게 코드를 썼고, 최근 몇 년은 사람도 이끕니다. 리테일, 핀테크, 그리고 직접 만든 AnimeSaver. 생각하고, 만들고, 팀이 부끄럽지 않게 이어받을 수 있는 형태까지 가져가는 일이 중요합니다.",
+    location: "모스크바",
+    open: "제안과 대화를 받습니다",
+    portraitCaption: "mangaka585 · AnimeSaver 창업자",
+    portraitAlt: "알렉산드르 타테보샨",
+    statYearsValue: "10+",
+    statYears: "년의 개발 경험",
+    statTrackValue: "IC → EM",
+    statTrack: "엔지니어, 리드, 매니저",
+    statDomainValue: "Fintech / Retail",
+    statDomain: "T뱅크 · LemanaPRO · 모스크바 대학",
+    statFounded: "직접 만든 제품을 프로덕션에서",
+    expKicker: "01 — 일하는 방식",
+    expTitle: "평소 어떻게 일하는지",
+    expLede:
+      "과제는 처음부터 끝까지 맡습니다. 도메인을 이해하고, 서비스를 설계하고, 프로덕션까지 가져가며, 사람이 편하게 운영할 수 있는 시스템을 남깁니다.",
+    ex1Title: "팀",
+    ex1Text:
+      "우선순위, 기술 분기, 배포 방식, 옆 사람의 성장까지 포함해 개발을 이끕니다. 문패의 직함보다 팀의 결과에 책임지는 사람이 중요합니다.",
+    ex2Title: "Backend",
+    ex2Text:
+      "경계가 분명한 서비스, 정직한 계약, 믿을 수 있는 데이터를 설계합니다. 어떤 문법도 빠르게 익힙니다. 언어는 전문 분야가 아니라 도구입니다.",
+    ex3Title: "비즈니스 프로세스",
+    ex3Text:
+      "상태, 신청, 연동이 많은 영역에서 자주 일합니다. 프로세스는 팀에 보여야 하고, 한 사람의 머리나 끝없는 if 안에 숨어 있으면 안 됩니다.",
+    ex4Title: "프로덕션으로 가는 길",
+    ex4Text:
+      "Kubernetes, Docker, werf, Jenkins, Grafana, Prometheus. 차분히 배포하고 무슨 일이 일어나는지 볼 수 없다면, 아직 끝난 게 아닙니다.",
+    workKicker: "02 — 경력",
+    workTitle: "실제로 있었던 곳",
+    now: "현재",
+    job1Dates: "2025년 2월 — 현재",
+    job1Place: "모스크바 · 하이브리드",
+    job1Company: "T뱅크",
+    job1EmTitle: "Engineering Manager · 2025년 9월 — 현재",
+    job1EmText:
+      "Collections 세그먼트를 이끌고 있습니다. 7개 프로덕트 팀을 2개 엔지니어링 팀이 지원합니다. 팀 리드를 매니징하고 로드맵, 딜리버리, 사람과 기술 방향을 책임집니다. 부서에서는 CTO에게 보고하며, 다른 스트림 리드 두 명과 함께 일합니다.",
+    job1EmP1:
+      "엔지니어링을 4명에서 16명으로: 외부 채용, 내부 로테이션, 직접 만든 인턴 파이프라인",
+    job1EmP2: "스트림 리드 타임 p85 = 5일",
+    job1EmP3:
+      "은행 상품 전반의 회수 프로세스를 키우고, 스트림이 회수 전략과 recovery, LTV로 이어지게 함",
+    job1EmP4: "스택: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC",
+    job1TlTitle: "Team Lead · 2025년 2월 — 2025년 9월",
+    job1TlText:
+      "Collections 팀 리드. 4명 팀을 이끌고 부서의 새 아키텍처를 위한 decisioning 서비스를 만들었습니다.",
+    job1TlP1: "새 아키텍처의 일부로 collections decisioning service를 설계하고 출시",
+    job1TlP2: "핸즈온 리드: 딜리버리, 채용, 성장, 팀의 기술 방향",
+    job1TlP3: "스택: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC",
+    job1TlP4: "2025년 9월 스트림 Engineering Manager로 승진",
+    job2Dates: "2022년 1월 — 2026년 9월",
+    job2Place: "계약 · 원격",
+    job2Company: "로모노소프 모스크바 국립대학교",
+    job2TlTitle: "Team Lead · 2025년 3월 — 2026년 9월",
+    job2TlText: "겸직으로 엔지니어 3명을 이끌고 대학 의료정보시스템을 만들고 운영했습니다.",
+    job2TlP1: "대학 의료정보시스템의 딜리버리와 유지보수",
+    job2TlP2: "3명 팀의 핸즈온 리드: 딜리버리, 운영, 기술 방향",
+    job2TlP3: "스택: Scala, JavaScript, Firebird, Linux",
+    job2SeTitle: "Software Engineer · 2022년 1월 — 2025년 3월",
+    job2SeText: "겸직으로 대학 의료정보시스템을 만들고 운영했습니다.",
+    job2SeP1: "MIS 기능, 유지보수, 프로덕션 지원",
+    job2SeP2: "검사실·영상의학과 시스템과의 리포트 및 연동",
+    job2SeP3: "Firebird를 최적화하고 관측 가능성을 맞춤",
+    job2SeP4: "스택: Scala, JavaScript, Firebird, Linux",
+    job2SeP5: "2025년 3월 Team Lead로 승진",
+    job3Dates: "2019년 9월 — 2026년 3월",
+    job3Place: "직접 만든 제품 · 원격",
+    job3Title: "창업자",
+    job3Text: "AnimeSaver를 만들었습니다. 애니메이션을 보고 일본어를 배우는 스트리밍 플랫폼입니다.",
+    job3P1: "아이디어, 아키텍처, 개발, 운영까지 처음부터 끝까지 맡음",
+    job3P2: "피크 기준 월 순 방문자 2.5만. 데스크톱과 모바일 웹",
+    job3P3:
+      "스택: JavaScript, TypeScript, NestJS, Next.js, React, PostgreSQL, Grafana, Prometheus, Linux, Kubernetes, Docker Swarm, Docker Compose",
+    job4Dates: "2021년 12월 — 2025년 1월",
+    job4Place: "모스크바 · 하이브리드",
+    job4TlTitle: "Team Lead · 2024년 9월 — 2025년 1월",
+    job4TlText:
+      "머천트 계정과 주문 조립부터 고객 배송까지의 흐름에서 11명을 이끌었습니다.",
+    job4TlP1:
+      "Software Engineer에서 승진. 머천트 캐비닛과 라스트마일 배송에서 11명을 이끌음",
+    job4TlP2: "해당 영역의 딜리버리와 기술 방향을 담당",
+    job4SeTitle: "Software Engineer · 2021년 12월 — 2024년 9월",
+    job4SeText: "머천트 계정과 주문 조립부터 배송까지의 흐름을 만들었습니다.",
+    job4SeP1: "머천트 캐비닛의 기능, 연동, 프로덕션 지원",
+    job4SeP2: "체스트니 ZNAK(국가 제품 마킹), 머천트 CRM, 택배 서비스 연동",
+    job4SeP3: "스택: JavaScript, gRPC",
+    job4SeP4: "2024년 9월 Team Lead로 승진",
+    job5Dates: "2021년 2월 — 2023년 4월",
+    job5Place: "조지아 · 원격",
+    job5Company: "TransIntel Technology",
+    job5Title: "Full Stack Engineer · 겸직",
+    job5Text:
+      "OGGO를 만들었습니다. 주유소, 세차, 고객, 택시, 차량을 위한 모듈형 운영 플랫폼입니다.",
+    job5P1: "OGGO 모듈 전반의 기능 개발",
+    job5P2: "모바일과 웹 클라이언트",
+    job5P3: "스택: React Native, JavaScript",
+    skillsKicker: "03 — 스택",
+    skillsTitle: "실제로 썼던 것",
+    skillsNote:
+      "실제 프로젝트에서 쓰고 이력서에도 적어 둔 것들입니다. 매일 쓰는 도구도 있고, 그 과제 때문에 익힌 것도 있습니다.",
+    skillLead: "리더십",
+    skillTeam: "팀 리딩",
+    skillDelivery: "딜리버리와 품질",
+    skillLangs: "언어",
+    skillBack: "Backend",
+    skillFront: "Frontend / 모바일",
+    skillData: "데이터",
+    skillInfra: "인프라",
+    skillTest: "테스트와 품질",
+    skillTools: "도구",
+    skillSec: "네트워크 보안",
+    eduKicker: "04 — 학력",
+    eduTitle: "학력",
+    eduSchool: "러시아 국립사회대학교",
+    eduDegree: "학사, 법학",
+    eduNote:
+      "개발은 독학입니다. 법학은 남아 있습니다. 요구사항, 리스크, 합의는 코드만큼 주의 깊게 읽습니다.",
+    certTitle: "전공 분야 추가 학습",
+    cert1: "Programming Fundamentals in Kotlin",
+    cert1Meta: "Meta · 2025년 11월",
+    cert2: "T-Camp. Управляй командой",
+    cert2Meta: "T뱅크 · 2025년 10월",
+    cert3: "Application Security and Secure Coding Training",
+    cert3Meta: "Codebashing · 2024년 2월",
+    cert4: "Camunda for microservice orchestration",
+    cert4Meta: "IE Kotov D.G. · 2022년 11월",
+    cert5: "Full-Stack Web Development with React",
+    cert5Meta: "Coursera · 2021년 1월",
+    cert6: "Programming for Everybody (Getting Started with Python)",
+    cert6Meta: "Coursera · 2018년 6월",
+    contactKicker: "05 — 연락",
+    contactTitle: "연락 주세요",
+    contactLede:
+      "Engineering Manager나 Team Lead, 백엔드나 플랫폼 이야기, 또는 구체적인 대화가 있다면.",
+    footer: "알렉산드르 타테보샨 · Engineering Manager",
+  },
 };
 
 const buttons = document.querySelectorAll(".lang-btn");
+
+function detectLang() {
+  const saved = localStorage.getItem("lang");
+  if (saved && COPY[saved]) return saved;
+  const nav = (navigator.language || "").toLowerCase();
+  if (nav.startsWith("ja")) return "ja";
+  if (nav.startsWith("ko")) return "ko";
+  if (nav.startsWith("en")) return "en";
+  return "ru";
+}
 
 function setLang(lang) {
   const dict = COPY[lang] || COPY.ru;
@@ -301,6 +603,10 @@ function setLang(lang) {
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
     if (dict[key]) node.textContent = dict[key];
+  });
+  document.querySelectorAll("[data-i18n-alt]").forEach((node) => {
+    const key = node.dataset.i18nAlt;
+    if (dict[key]) node.setAttribute("alt", dict[key]);
   });
   buttons.forEach((btn) => {
     const active = btn.dataset.lang === lang;
@@ -314,6 +620,4 @@ buttons.forEach((btn) => {
   btn.addEventListener("click", () => setLang(btn.dataset.lang));
 });
 
-const saved = localStorage.getItem("lang");
-const prefersEn = navigator.language && navigator.language.toLowerCase().startsWith("en");
-setLang(saved || (prefersEn ? "en" : "ru"));
+setLang(detectLang());

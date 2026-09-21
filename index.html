@@ -26,7 +26,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=Unbounded:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
@@ -93,6 +93,8 @@
             RU
           </button>
           <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" class="lang-btn" data-lang="ja" aria-pressed="false">JA</button>
+          <button type="button" class="lang-btn" data-lang="ko" aria-pressed="false">KO</button>
         </div>
         <a class="print-btn" href="javascript:window.print()" data-i18n="print">PDF</a>
       </div>
@@ -140,9 +142,10 @@
         <figure class="portrait">
           <img
             src="./assets/avatar.jpg"
-            width="400"
-            height="400"
-            alt="Силуэт самурая — аватар Александра Татевосяна"
+            width="900"
+            height="1200"
+            alt="Александр Татевосян"
+            data-i18n-alt="portraitAlt"
           />
           <figcaption data-i18n="portraitCaption">mangaka585 · основатель AnimeSaver</figcaption>
         </figure>
@@ -190,16 +193,17 @@
             <p class="exp-num">02</p>
             <h3 data-i18n="ex2Title">Backend</h3>
             <p data-i18n="ex2Text">
-              Пишу и проектирую сервисы на Kotlin, Java и TypeScript. Стараюсь, чтобы были понятные
-              границы, честные контракты и данные, которым можно доверять.
+              Проектирую сервисы с понятными границами, честными контрактами и данными, которым
+              можно доверять. Синтаксис любого языка осваиваю быстро — для меня это инструмент, а не
+              специализация.
             </p>
           </article>
           <article>
             <p class="exp-num">03</p>
             <h3 data-i18n="ex3Title">Бизнес-процессы</h3>
             <p data-i18n="ex3Text">
-              Часто работаю там, где много статусов, заявок и интеграций. Camunda помогает не
-              держать весь этот зоопарк в голове и в бесконечных if.
+              Часто работаю там, где много статусов, заявок и интеграций. Важно, чтобы процесс был
+              виден команде, а не жил в голове одного человека и в бесконечных if.
             </p>
           </article>
           <article>
@@ -232,7 +236,7 @@
                 <p data-i18n="job1EmText">
                   Веду сегмент Collections: 7 продуктовых команд опираются на 2 инженерные. Руковожу
                   тимлидами, отвечаю за роадмап, поставку, людей и техническое направление. В
-                  департаменте подчиняюсь Technical Director — вместе с двумя другими стрим-лидами.
+                  департаменте подчиняюсь CTO — вместе с двумя другими стрим-лидами.
                 </p>
                 <ul class="job-points">
                   <li data-i18n="job1EmP1">
@@ -330,8 +334,6 @@
               </ul>
               <p>
                 <a href="https://animesaver.online" rel="noopener noreferrer">animesaver.online</a>
-                ·
-                <a href="https://animesaver.space" rel="noopener noreferrer">animesaver.space</a>
               </p>
             </div>
           </li>

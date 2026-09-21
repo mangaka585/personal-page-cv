@@ -36,6 +36,26 @@ body {
   letter-spacing: 0.01em;
 }
 
+html[lang="ja"] {
+  --font: "Noto Sans JP", "Manrope", "Segoe UI", sans-serif;
+}
+
+html[lang="ko"] {
+  --font: "Noto Sans KR", "Manrope", "Segoe UI", sans-serif;
+}
+
+html[lang="ja"] h2,
+html[lang="ja"] h3,
+html[lang="ja"] .kicker,
+html[lang="ja"] .stats strong,
+html[lang="ko"] h2,
+html[lang="ko"] h3,
+html[lang="ko"] .kicker,
+html[lang="ko"] .stats strong {
+  font-family: var(--font);
+  letter-spacing: 0;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -142,7 +162,7 @@ main,
   background: transparent;
   color: var(--muted);
   border: 0;
-  padding: 0.35rem 0.7rem;
+  padding: 0.35rem 0.55rem;
   cursor: pointer;
 }
 
@@ -240,7 +260,8 @@ h3 {
 
 .section-lede {
   color: var(--muted);
-  max-width: 46rem;
+  width: 100%;
+  max-width: none;
   margin: -0.6rem 0 1.6rem;
 }
 
@@ -280,21 +301,32 @@ h3 {
 .portrait {
   margin: 0;
   justify-self: end;
-  width: min(100%, 320px);
+  width: min(100%, 360px);
+  position: relative;
+  padding: 0.5rem;
+}
+
+.portrait::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 2.15rem;
+  border: 1px solid rgba(196, 165, 116, 0.4);
+  pointer-events: none;
 }
 
 .portrait img {
   width: 100%;
-  aspect-ratio: 1;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  border-radius: 50% 50% 18% 50%;
-  border: 1px solid var(--line);
+  object-position: 50% 12%;
+  border-radius: 1.7rem;
   box-shadow: var(--shadow);
   background: #1b1a18;
 }
 
 .portrait figcaption {
-  margin-top: 0.7rem;
+  margin-top: 0.85rem;
   text-align: center;
   color: var(--muted);
   font-size: 0.85rem;
@@ -593,6 +625,12 @@ h3 {
     display: none;
   }
 
+  .lang-btn,
+  .print-btn {
+    padding: 0.3rem 0.45rem;
+    font-size: 0.8rem;
+  }
+
   .hero,
   .about-grid,
   .timeline li,
@@ -612,7 +650,7 @@ h3 {
 
   .portrait {
     justify-self: start;
-    width: min(220px, 70vw);
+    width: min(260px, 78vw);
     order: -1;
   }
 
