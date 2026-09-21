@@ -56,7 +56,8 @@ const COPY = {
     job1TlP1:
       "Спроектировал и запустил collections decisioning service как часть новой архитектуры",
     job1TlP2: "Hands-on лид: поставка, найм, развитие людей и техника команды",
-    job1TlP3: "В сентябре 2025 стал Engineering Manager стрима",
+    job1TlP3: "Стек: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC",
+    job1TlP4: "В сентябре 2025 стал Engineering Manager стрима",
     job2Dates: "янв 2022 — сен 2026",
     job2Place: "контракт · удалённо",
     job2Company: "МГУ имени М. В. Ломоносова",
@@ -71,7 +72,8 @@ const COPY = {
     job2SeP1: "Фичи, поддержка, прод",
     job2SeP2: "Отчётность и интеграции с лабораторными и рентген-системами",
     job2SeP3: "Оптимизировал Firebird и навёл наблюдаемость",
-    job2SeP4: "В марте 2025 стал Team Lead",
+    job2SeP4: "Стек: Scala, JavaScript, Firebird, Linux",
+    job2SeP5: "В марте 2025 стал Team Lead",
     job3Dates: "сен 2019 — мар 2026",
     job3Place: "свой продукт · удалённо",
     job3Title: "Основатель",
@@ -86,7 +88,8 @@ const COPY = {
     job4TlTitle: "Team Lead · сен 2024 — янв 2025",
     job4TlText:
       "Вёл 11 человек по личному кабинету мерчанта и цепочке от сборки заказа до доставки клиенту.",
-    job4TlP1: "Повышение из Software Engineer",
+    job4TlP1:
+      "Повышение из Software Engineer: вёл 11 человек по кабинету мерчанта и last-mile доставке",
     job4TlP2: "Поставка и техническое направление этого контура",
     job4SeTitle: "Software Engineer · дек 2021 — сен 2024",
     job4SeText: "Делал личный кабинет мерчанта и поток от сборки заказа до доставки.",
@@ -191,7 +194,8 @@ const COPY = {
     job1TlP1:
       "Designed and launched the collections decisioning service as part of the department's new architecture",
     job1TlP2: "Hands-on lead: delivery, hiring, people development, and the team's technical direction",
-    job1TlP3: "Promoted to Engineering Manager of the stream in September 2025",
+    job1TlP3: "Stack: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC",
+    job1TlP4: "Promoted to Engineering Manager of the stream in September 2025",
     job2Dates: "Jan 2022 — Sep 2026",
     job2Place: "contract · remote",
     job2Company: "Lomonosov Moscow State University",
@@ -206,7 +210,8 @@ const COPY = {
     job2SeP1: "Developed and operated the MIS: features, upkeep, and production support",
     job2SeP2: "Built reporting and integrations with laboratory and radiology systems",
     job2SeP3: "Optimized the Firebird database and set up observability",
-    job2SeP4: "Promoted to Team Lead in March 2025",
+    job2SeP4: "Stack: Scala, JavaScript, Firebird, Linux",
+    job2SeP5: "Promoted to Team Lead in March 2025",
     job3Dates: "Sep 2019 — Mar 2026",
     job3Place: "own product · remote",
     job3Title: "Founder",
@@ -220,7 +225,8 @@ const COPY = {
     job4TlTitle: "Team Lead · Sep 2024 — Jan 2025",
     job4TlText:
       "I led a team of 11 on the merchant account and the flow from order assembly to customer delivery.",
-    job4TlP1: "Promoted from Software Engineer",
+    job4TlP1:
+      "Promoted from Software Engineer; led 11 people across the merchant cabinet and last-mile delivery process",
     job4TlP2: "Owned delivery and technical direction for that contour",
     job4SeTitle: "Software Engineer · Dec 2021 — Sep 2024",
     job4SeText: "I built the merchant account and the flow from order assembly to customer delivery.",
