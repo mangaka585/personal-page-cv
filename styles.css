@@ -288,9 +288,12 @@ h3 {
   color: #efc6ce;
 }
 
+.portrait-slot {
+  justify-self: end;
+}
+
 .portrait {
   margin: 0;
-  justify-self: end;
   width: 176px;
   height: auto;
   aspect-ratio: 441 / 809;
@@ -607,7 +610,16 @@ h3 {
     font-size: 0.8rem;
   }
 
-  .hero,
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-copy {
+    width: 100%;
+  }
+
   .about-grid,
   .timeline li,
   .skill-groups,
@@ -624,13 +636,21 @@ h3 {
     border-left: 0;
   }
 
-  .portrait {
-    justify-self: center;
+  .portrait-slot {
     order: -1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portrait {
+    width: 220px;
+    max-width: 70%;
     height: auto;
+    min-width: 0;
     min-height: 0;
-    width: min(220px, 70vw);
-    margin-inline: auto;
+    margin: 0 auto;
   }
 
   .portrait img {
