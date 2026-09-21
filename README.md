@@ -1,15 +1,10 @@
 # Alexander Tatevosyan — страница обо мне
 
-Публичное досье: опыт, навыки и контакты. Её можно открыть как сайт и приложить ссылкой к LinkedIn, GitHub, hh.ru и резюме. Есть переключатель RU / EN / JA / KO.
+Публичное досье: опыт, навыки и контакты. RU / EN / JA / KO.
 
-## Как опубликовать
+**Сайт:** [https://mangaka585.github.io/](https://mangaka585.github.io/)
 
-Репозиторий сейчас приватный. Бесплатный GitHub Pages работает только с **публичным** репозиторием.
-
-1. GitHub → **Settings → General → Danger zone → Change visibility → Public**
-2. GitHub → **Settings → Pages** → Source: **GitHub Actions**
-3. После пуша или повторного запуска workflow `Deploy GitHub Pages` сайт будет на
-   `https://mangaka585.github.io/personal-page-cv/`
+Чтобы адрес работал без `/personal-page-cv`, репозиторий должен называться `mangaka585.github.io` (GitHub → Settings → General → Repository name). После переименования workflow `Deploy GitHub Pages` публикует сайт в корень.
 
 Локально:
 
@@ -21,10 +16,9 @@ python3 -m http.server 8080
 
 ## Что положить в профили
 
+- GitHub → поле Website: `https://mangaka585.github.io/`
 - LinkedIn → Featured / Featured link
-- GitHub → поле Website и ссылка в README профиля
 - hh.ru → «Сайт» в резюме
-- Telegram / почта — как короткая визитка вместо длинного текста
 
 ## Откуда данные
 
