@@ -189,7 +189,7 @@ main {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: clamp(1.25rem, 3vw, 2.25rem);
-  align-items: stretch;
+  align-items: start;
   padding: clamp(2.5rem, 7vw, 5.5rem) 0 2.5rem;
 }
 
@@ -300,8 +300,8 @@ h3 {
 .portrait {
   margin: 0;
   justify-self: end;
-  height: 0;
-  min-height: 100%;
+  width: 176px;
+  height: auto;
   aspect-ratio: 441 / 809;
   position: relative;
   overflow: hidden;
