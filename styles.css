@@ -213,9 +213,35 @@ h3 {
 }
 
 .lede {
-  margin: 0 0 1.3rem;
+  margin: 0 0 1.15rem;
   color: var(--muted);
-  max-width: 42rem;
+  max-width: 44rem;
+}
+
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.15rem;
+}
+
+.hero-tags li {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  border: 1px solid var(--line);
+  background: rgba(216, 90, 48, 0.08);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+}
+
+.section-lede {
+  color: var(--muted);
+  max-width: 46rem;
+  margin: -0.6rem 0 1.6rem;
 }
 
 .hero-meta,
@@ -288,11 +314,8 @@ h3 {
   padding: 1.1rem 1.15rem;
 }
 
-.stats strong {
-  display: block;
-  font-family: var(--display);
-  font-size: 1.55rem;
-  margin-bottom: 0.2rem;
+.stats article:first-child strong {
+  color: var(--accent);
 }
 
 .stats span {
@@ -312,6 +335,37 @@ h3 {
 
 .block-head {
   margin-bottom: 1.6rem;
+}
+
+.expertise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+}
+
+.expertise article {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.3rem 1.1rem;
+}
+
+.exp-num {
+  margin: 0 0 0.55rem;
+  color: var(--accent);
+  font-family: var(--display);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+}
+
+.expertise h3 {
+  margin-bottom: 0.55rem;
+}
+
+.expertise p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
 }
 
 .about-grid {
@@ -359,6 +413,38 @@ h3 {
   gap: 1.4rem;
   padding: 1.2rem 0 1.5rem;
   border-bottom: 1px solid var(--line);
+}
+
+.timeline li.current .what {
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+}
+
+.now {
+  display: inline-block;
+  margin-top: 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #f6d2c4;
+  background: var(--accent-soft);
+  border-radius: 999px;
+  padding: 0.18rem 0.55rem;
+}
+
+.timeline .job-points {
+  margin: 0.35rem 0 0;
+  padding: 0 0 0 1.1rem;
+  color: var(--muted);
+}
+
+.timeline .job-points li {
+  display: list-item;
+  grid-template-columns: none;
+  gap: 0;
+  padding: 0.22rem 0;
+  border: 0;
 }
 
 .timeline li:last-child {
@@ -469,8 +555,14 @@ h3 {
   .edu,
   .contact-list,
   .stats,
-  .principles {
+  .principles,
+  .expertise {
     grid-template-columns: 1fr;
+  }
+
+  .timeline li.current .what {
+    padding-left: 0;
+    border-left: 0;
   }
 
   .portrait {
@@ -528,7 +620,8 @@ h3 {
   }
 
   .block,
-  .timeline li {
+  .timeline li,
+  .expertise article {
     break-inside: avoid;
   }
 }
