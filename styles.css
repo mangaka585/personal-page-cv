@@ -314,6 +314,13 @@ h3 {
   padding: 1.1rem 1.15rem;
 }
 
+.stats strong {
+  display: block;
+  font-family: var(--display);
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  margin-bottom: 0.25rem;
+}
+
 .stats article:first-child strong {
   color: var(--accent);
 }
