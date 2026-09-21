@@ -189,7 +189,7 @@ main {
   display: grid;
   grid-template-columns: 1.3fr 0.7fr;
   gap: clamp(1.5rem, 4vw, 3.5rem);
-  align-items: center;
+  align-items: start;
   padding: clamp(2.5rem, 7vw, 5.5rem) 0 2.5rem;
 }
 
@@ -301,7 +301,7 @@ h3 {
 .portrait {
   margin: 0;
   justify-self: end;
-  width: min(100%, 360px);
+  width: min(100%, 320px);
   position: relative;
   padding: 0.5rem;
 }
@@ -317,9 +317,9 @@ h3 {
 
 .portrait img {
   width: 100%;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: 50% 12%;
+  object-position: 50% 62%;
   border-radius: 1.7rem;
   box-shadow: var(--shadow);
   background: #1b1a18;
