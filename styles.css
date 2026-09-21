@@ -1,14 +1,14 @@
 :root {
-  --bg: #0c0b0a;
-  --bg-soft: #141210;
-  --ink: #f3ece3;
-  --muted: #a3988c;
-  --line: rgba(243, 236, 227, 0.12);
-  --accent: #d85a30;
-  --accent-soft: rgba(216, 90, 48, 0.16);
-  --gold: #c4a574;
-  --card: #181614;
-  --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --bg: #08090b;
+  --bg-soft: #101218;
+  --ink: #f2efeb;
+  --muted: #9b938c;
+  --line: rgba(242, 239, 235, 0.12);
+  --accent: #a12d42;
+  --accent-soft: rgba(161, 45, 66, 0.18);
+  --gold: #c48a6a;
+  --card: #12151c;
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.4);
   --radius: 22px;
   --font: "Manrope", "Segoe UI", sans-serif;
   --display: "Unbounded", "Manrope", sans-serif;
@@ -28,8 +28,8 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background: radial-gradient(1200px 600px at 80% -10%, #2a1c14 0%, transparent 55%),
-    radial-gradient(900px 500px at -10% 20%, #1a1714 0%, transparent 50%), var(--bg);
+  background: radial-gradient(1200px 600px at 82% -8%, #2a141c 0%, transparent 55%),
+    radial-gradient(900px 500px at -12% 22%, #141824 0%, transparent 50%), var(--bg);
   font-family: var(--font);
   font-size: 17px;
   line-height: 1.65;
@@ -109,7 +109,7 @@ main,
   gap: 1rem;
   justify-content: space-between;
   padding: 0.85rem clamp(1rem, 4vw, 3rem);
-  background: #0c0b0a;
+  background: var(--bg);
   border-bottom: 1px solid var(--line);
   z-index: 5;
 }
@@ -253,7 +253,7 @@ h3 {
   letter-spacing: 0.02em;
   color: var(--ink);
   border: 1px solid var(--line);
-  background: rgba(216, 90, 48, 0.08);
+  background: rgba(161, 45, 66, 0.1);
   border-radius: 999px;
   padding: 0.28rem 0.7rem;
 }
@@ -295,7 +295,7 @@ h3 {
 .pill-accent {
   border-color: transparent;
   background: var(--accent-soft);
-  color: #f6d2c4;
+  color: #efc6ce;
 }
 
 .portrait {
@@ -312,7 +312,7 @@ h3 {
   position: absolute;
   inset: 0;
   border-radius: 2.15rem;
-  border: 1px solid rgba(196, 165, 116, 0.4);
+  border: 1px solid rgba(196, 138, 106, 0.45);
   pointer-events: none;
 }
 
@@ -324,7 +324,7 @@ h3 {
   object-fit: contain;
   border-radius: 1.7rem;
   box-shadow: var(--shadow);
-  background: #1b1a18;
+  background: #12151c;
 }
 
 .stats {
@@ -467,7 +467,7 @@ h3 {
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: #f6d2c4;
+  color: #efc6ce;
   background: var(--accent-soft);
   border-radius: 999px;
   padding: 0.18rem 0.55rem;
