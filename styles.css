@@ -302,30 +302,20 @@ h3 {
   justify-self: end;
   height: 0;
   min-height: 100%;
+  aspect-ratio: 441 / 809;
   position: relative;
-  padding: 0.5rem;
-  display: flex;
-  box-sizing: content-box;
-}
-
-.portrait::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 2.15rem;
+  overflow: hidden;
+  border-radius: 1.7rem;
   border: 1px solid rgba(196, 138, 106, 0.45);
-  pointer-events: none;
+  box-shadow: var(--shadow);
 }
 
 .portrait img {
   display: block;
+  width: 100%;
   height: 100%;
-  width: auto;
-  aspect-ratio: 441 / 809;
-  object-fit: contain;
-  border-radius: 1.7rem;
-  box-shadow: var(--shadow);
-  background: #12151c;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .stats {
@@ -649,11 +639,12 @@ h3 {
     order: -1;
     height: auto;
     min-height: 0;
+    width: min(220px, 70vw);
   }
 
   .portrait img {
-    height: min(220px, 70vw);
-    width: auto;
+    width: 100%;
+    height: 100%;
   }
 
   .stats {
@@ -700,7 +691,7 @@ h3 {
     width: 100%;
   }
 
-  .portrait img {
+  .portrait {
     box-shadow: none;
   }
 
