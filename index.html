@@ -66,6 +66,9 @@
           "werf",
           "PostgreSQL",
           "MongoDB",
+          "Kafka",
+          "Scala",
+          "Firebird",
           "gRPC",
           "MikroORM"
         ]
@@ -105,9 +108,8 @@
           </p>
           <p class="lede" data-i18n="lede">
             Больше десяти лет пишу код, последние годы ещё и веду людей. Работал в ритейле и
-            финтехе, параллельно развиваю свой AnimeSaver. Мне важно придумать, собрать и довести
-            до рабочего вида — с понятной архитектурой и кодом, который не стыдно оставлять
-            команде.
+            финтехе, собирал свой AnimeSaver. Мне важно придумать, собрать и довести до рабочего
+            вида — с понятной архитектурой и кодом, который не стыдно оставлять команде.
           </p>
           <ul class="hero-tags" aria-label="Focus">
             <li>Kotlin / Java</li>
@@ -219,90 +221,170 @@
         <ol class="timeline">
           <li class="current">
             <div class="when">
-              <time data-i18n="job1Dates">ноя 2025 — н.в.</time>
-              <span class="place" data-i18n="job1Place">Москва</span>
+              <time data-i18n="job1Dates">фев 2025 — н.в.</time>
+              <span class="place" data-i18n="job1Place">Москва · гибрид</span>
               <span class="now" data-i18n="now">сейчас</span>
             </div>
             <div class="what">
               <h3 data-i18n="job1Company">Т-Банк</h3>
-              <p class="title" data-i18n="job1Title">Engineering Manager</p>
-              <p data-i18n="job1Text">
-                В Т-Банке руковожу разработкой. Смотрю и за людьми, и за сервисами: банковские
-                процессы должны оставаться понятными и не разваливаться, когда ими начинают
-                пользоваться.
-              </p>
-              <ul class="job-points">
-                <li data-i18n="job1p1">
-                  Помогаю принимать технические решения и держать качество поставки
-                </li>
-                <li data-i18n="job1p2">
-                  Перевожу сложный банковский домен в систему, которую команда может развивать
-                  дальше
-                </li>
-                <li data-i18n="job1p3">
-                  До этого здесь же был Team Lead — с февраля по ноябрь 2025, потом стал
-                  Engineering Manager
-                </li>
-              </ul>
+              <div class="role-block">
+                <p class="title" data-i18n="job1EmTitle">Engineering Manager · сен 2025 — н.в.</p>
+                <p data-i18n="job1EmText">
+                  Веду сегмент Collections: 7 продуктовых команд опираются на 2 инженерные. Руковожу
+                  тимлидами, отвечаю за роадмап, поставку, людей и техническое направление. В
+                  департаменте подчиняюсь Technical Director — вместе с двумя другими стрим-лидами.
+                </p>
+                <ul class="job-points">
+                  <li data-i18n="job1EmP1">
+                    Вырастил инженерию с 4 до 16 человек: внешний найм, внутренняя ротация и
+                    стажёрский пайплайн, который сам собрал
+                  </li>
+                  <li data-i18n="job1EmP2">Lead time стрима на p85 — 5 дней</li>
+                  <li data-i18n="job1EmP3">
+                    Развиваем процессы взыскания по продуктам банка: стрим питает стратегию
+                    коллекшена, а через неё recovery и LTV
+                  </li>
+                  <li data-i18n="job1EmP4">Стек: Java, Kotlin, PostgreSQL, Kafka, REST, gRPC</li>
+                </ul>
+              </div>
+              <div class="role-block">
+                <p class="title" data-i18n="job1TlTitle">Team Lead · фев 2025 — сен 2025</p>
+                <p data-i18n="job1TlText">
+                  Тимлид в Collections. Вёл команду из четырёх человек и собрал decisioning-сервис
+                  под новую архитектуру департамента.
+                </p>
+                <ul class="job-points">
+                  <li data-i18n="job1TlP1">
+                    Спроектировал и запустил collections decisioning service как часть новой
+                    архитектуры
+                  </li>
+                  <li data-i18n="job1TlP2">
+                    Hands-on лид: поставка, найм, развитие людей и техника команды
+                  </li>
+                  <li data-i18n="job1TlP3">В сентябре 2025 стал Engineering Manager стрима</li>
+                </ul>
+              </div>
             </div>
           </li>
           <li>
             <div class="when">
-              <time data-i18n="job2Dates">2025 — н.в.</time>
-              <span class="place" data-i18n="job2Place">по совместительству</span>
+              <time data-i18n="job2Dates">янв 2022 — сен 2026</time>
+              <span class="place" data-i18n="job2Place">контракт · удалённо</span>
             </div>
             <div class="what">
               <h3 data-i18n="job2Company">МГУ имени М. В. Ломоносова</h3>
-              <p class="title" data-i18n="job2Title">Team Lead</p>
-              <p data-i18n="job2Text">
-                Параллельно веду разработку цифровых сервисов в МГУ. Больше про команду и ясность,
-                чем про то, чтобы всё написать самому.
-              </p>
+              <div class="role-block">
+                <p class="title" data-i18n="job2TlTitle">Team Lead · мар 2025 — сен 2026</p>
+                <p data-i18n="job2TlText">
+                  По совместительству вёл трёх инженеров: медицинская информационная система
+                  университета.
+                </p>
+                <ul class="job-points">
+                  <li data-i18n="job2TlP1">Поставка и сопровождение университетской МИС</li>
+                  <li data-i18n="job2TlP2">
+                    Hands-on лид: поставка, эксплуатация, техническое направление
+                  </li>
+                  <li data-i18n="job2TlP3">Стек: Scala, JavaScript, Firebird, Linux</li>
+                </ul>
+              </div>
+              <div class="role-block">
+                <p class="title" data-i18n="job2SeTitle">Software Engineer · янв 2022 — мар 2025</p>
+                <p data-i18n="job2SeText">
+                  Собирал и сопровождал университетскую МИС по совместительству.
+                </p>
+                <ul class="job-points">
+                  <li data-i18n="job2SeP1">Фичи, поддержка, прод</li>
+                  <li data-i18n="job2SeP2">
+                    Отчётность и интеграции с лабораторными и рентген-системами
+                  </li>
+                  <li data-i18n="job2SeP3">Оптимизировал Firebird и навёл наблюдаемость</li>
+                  <li data-i18n="job2SeP4">В марте 2025 стал Team Lead</li>
+                </ul>
+              </div>
             </div>
           </li>
           <li>
             <div class="when">
-              <time data-i18n="job3Dates">дек 2021 — янв 2025</time>
-              <span class="place" data-i18n="job3Place">Москва</span>
-            </div>
-            <div class="what">
-              <h3>LemanaPRO <span class="muted">(ex. Leroy Merlin)</span></h3>
-              <p class="title" data-i18n="job3Title">Software Engineer → Team Lead</p>
-              <p data-i18n="job3Text">
-                В Лемана ПРО три года делал full-stack платформу, потом принял команду. Из кода и
-                архитектуры по пути не выпал.
-              </p>
-              <ul class="job-points">
-                <li data-i18n="job3p1">
-                  Сервисы на TypeScript и NestJS, PostgreSQL и MongoDB, API и интеграции
-                </li>
-                <li data-i18n="job3p2">
-                  Бизнес-процессы на Camunda — от заявки до рабочего сценария
-                </li>
-                <li data-i18n="job3p3">
-                  Выкатывали в Kubernetes через werf. Командой руководил с сентября 2024 по январь
-                  2025
-                </li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <div class="when">
-              <time data-i18n="job4Dates">сен 2019 — н.в.</time>
-              <span class="place" data-i18n="job4Place">свой продукт</span>
+              <time data-i18n="job3Dates">сен 2019 — мар 2026</time>
+              <span class="place" data-i18n="job3Place">свой продукт · удалённо</span>
             </div>
             <div class="what">
               <h3>AnimeSaver</h3>
-              <p class="title" data-i18n="job4Title">Основатель и разработчик</p>
-              <p data-i18n="job4Text">
-                С 2019 года делаю AnimeSaver. Сам придумал, сам собрал и до сих пор развиваю —
-                живой сервис, не склад экспериментов.
+              <p class="title" data-i18n="job3Title">Основатель</p>
+              <p data-i18n="job3Text">
+                Собрал AnimeSaver — стриминговую платформу, чтобы смотреть аниме и учить японский.
               </p>
+              <ul class="job-points">
+                <li data-i18n="job3P1">
+                  Сам придумал и вёл целиком: идея, архитектура, разработка, эксплуатация
+                </li>
+                <li data-i18n="job3P2">
+                  На пике — 25 тысяч уникальных пользователей в месяц, десктоп и мобильный веб
+                </li>
+                <li data-i18n="job3P3">
+                  Стек: JavaScript, TypeScript, NestJS, Next.js, React, PostgreSQL, Grafana,
+                  Prometheus, Linux, Kubernetes, Docker Swarm, Docker Compose
+                </li>
+              </ul>
               <p>
                 <a href="https://animesaver.online" rel="noopener noreferrer">animesaver.online</a>
                 ·
                 <a href="https://animesaver.space" rel="noopener noreferrer">animesaver.space</a>
               </p>
+            </div>
+          </li>
+          <li>
+            <div class="when">
+              <time data-i18n="job4Dates">дек 2021 — янв 2025</time>
+              <span class="place" data-i18n="job4Place">Москва · гибрид</span>
+            </div>
+            <div class="what">
+              <h3>LemanaPRO <span class="muted">(ex. Leroy Merlin)</span></h3>
+              <div class="role-block">
+                <p class="title" data-i18n="job4TlTitle">Team Lead · сен 2024 — янв 2025</p>
+                <p data-i18n="job4TlText">
+                  Вёл 11 человек по личному кабинету мерчанта и цепочке от сборки заказа до
+                  доставки клиенту.
+                </p>
+                <ul class="job-points">
+                  <li data-i18n="job4TlP1">Повышение из Software Engineer</li>
+                  <li data-i18n="job4TlP2">
+                    Поставка и техническое направление этого контура
+                  </li>
+                </ul>
+              </div>
+              <div class="role-block">
+                <p class="title" data-i18n="job4SeTitle">Software Engineer · дек 2021 — сен 2024</p>
+                <p data-i18n="job4SeText">
+                  Делал личный кабинет мерчанта и поток от сборки заказа до доставки.
+                </p>
+                <ul class="job-points">
+                  <li data-i18n="job4SeP1">Фичи, интеграции, прод</li>
+                  <li data-i18n="job4SeP2">
+                    Честный ЗНАК, CRM мерчанта, курьерские сервисы
+                  </li>
+                  <li data-i18n="job4SeP3">Стек: JavaScript, gRPC</li>
+                  <li data-i18n="job4SeP4">В сентябре 2024 стал Team Lead</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="when">
+              <time data-i18n="job5Dates">фев 2021 — апр 2023</time>
+              <span class="place" data-i18n="job5Place">Грузия · удалённо</span>
+            </div>
+            <div class="what">
+              <h3 data-i18n="job5Company">TransIntel Technology</h3>
+              <p class="title" data-i18n="job5Title">Full Stack Engineer · по совместительству</p>
+              <p data-i18n="job5Text">
+                Делал OGGO — модульную платформу для АЗС, моек, клиентов, такси и автопарка.
+              </p>
+              <ul class="job-points">
+                <li data-i18n="job5P1">Фичи по модулям OGGO</li>
+                <li data-i18n="job5P2">Мобильный и веб-клиент</li>
+                <li data-i18n="job5P3">Стек: React Native, JavaScript</li>
+              </ul>
             </div>
           </li>
         </ol>
@@ -341,6 +423,7 @@
               <li>Rust</li>
               <li>CoffeeScript</li>
               <li>Swift</li>
+              <li>Scala</li>
               <li>SQL / PLpgSQL</li>
               <li>Shell</li>
             </ul>
@@ -354,6 +437,7 @@
               <li>REST API</li>
               <li>gRPC</li>
               <li>Camunda</li>
+              <li>Kafka</li>
               <li>MikroORM</li>
             </ul>
           </article>
@@ -378,6 +462,7 @@
               <li>PostgreSQL</li>
               <li>MySQL</li>
               <li>MongoDB</li>
+              <li>Firebird</li>
               <li>Amazon S3</li>
             </ul>
           </article>
@@ -386,6 +471,8 @@
             <ul>
               <li>Kubernetes</li>
               <li>Docker</li>
+              <li>Docker Swarm</li>
+              <li>Docker Compose</li>
               <li>werf</li>
               <li>Jenkins</li>
               <li>Linux</li>
@@ -430,7 +517,7 @@
             </p>
           </div>
           <div>
-            <h3 data-i18n="certTitle">Ещё учился по ходу работы</h3>
+            <h3 data-i18n="certTitle">Дополнительное обучение по специализациям</h3>
             <ul class="certs">
               <li data-i18n="cert1">Programming Fundamentals in Kotlin — Meta</li>
               <li data-i18n="cert2">Camunda for microservice orchestration</li>
@@ -448,7 +535,7 @@
         </header>
         <p class="contact-lede" data-i18n="contactLede">
           Если ищете Engineering Manager или Team Lead, нужен backend или платформа — или просто
-          есть о чём поговорить по делу. Москва, по задаче могу и удалённо.
+          есть о чём поговорить по делу.
         </p>
         <ul class="contact-list">
           <li>
@@ -486,7 +573,7 @@
     </main>
 
     <footer class="site-foot">
-      <p data-i18n="footer">Александр Татевосян · Engineering Manager · 10+ лет в разработке</p>
+      <p data-i18n="footer">Александр Татевосян · Engineering Manager</p>
     </footer>
 
     <script src="./script.js"></script>
